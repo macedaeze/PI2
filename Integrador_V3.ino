@@ -45,7 +45,7 @@ int maxUs = 2500;
 
 volatile bool running = false;
 int currentAngle = 90; // Centro
-int minMax = 25 // Más menos del centro
+int minMax = 25; // Más menos del centro
 
 // NUEVO: limitar servo a 90° ± 25°
 int minAngle = currentAngle - minMax;
